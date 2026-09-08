@@ -1,0 +1,19 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python3 tests/test_statement.py
+      - name: parse and verify the sample statement
+        run: |
+          python3 scripts/statement.py detect templates/statement.example.txt
+          python3 scripts/statement.py parse  templates/statement.example.txt --out /tmp/rows.csv
+          python3 scripts/statement.py verify /tmp/rows.csv --opening 1240.55 --closing 2103.11

@@ -1,0 +1,21 @@
+                    BANCA ESEMPIO SPA
+              ESTRATTO CONTO N. 3 DEL 30/06/2026
+       Periodo dal 01/06/2026 al 30/06/2026        Valuta: EUR
+
+SALDO INIZIALE AL 01/06/2026                              1.240,55
+
+Data       Valuta     Descrizione                    Importo      Saldo
+01/06/2026 01/06/2026 BONIFICO DA ACME SRL          1.500,00    2.740,55
+                      FATTURA 2026-114 SALDO
+03/06/2026 03/06/2026 PAGAMENTO POS SUPERMERCATO      -82,40    2.658,15
+05/06/2026 05/06/2026 ADDEBITO SDD ENERGIA            -119,90   2.538,25
+                      UTENZA LUCE E GAS
+                      RIF. MANDATO 88213
+Pagina 1 di 2
+Data       Valuta     Descrizione                    Importo      Saldo
+12/06/2026 12/06/2026 BONIFICO A FORNITORE SUD        -640,00   1.898,25
+18/06/2026 18/06/2026 ACCREDITO STIPENDIO            1.010,00    2.908,25
+22/06/2026 22/06/2026 COMMISSIONI TRIMESTRALI          -35,14    2.873,11
+28/06/2026 28/06/2026 PRELIEVO ATM                    -770,00    2.103,11
+
+SALDO FINALE AL 30/06/2026                                2.103,11
